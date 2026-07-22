@@ -23,6 +23,11 @@ requirements:
   host:
     - llvm-openmp  # [osx]
     - libgomp  # [linux]
+    - zlib
+    - bzip2
+    - xz
+    - libcurl
+    - openssl
 
 test:
   commands:
